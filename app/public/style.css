@@ -18,6 +18,12 @@ body{
 
 .surveycontainer{
     background: white;
+    opacity: .85;
 
+}
+
+#modal-image{
+    width: 400px;
+    align-content: center;
 }
 

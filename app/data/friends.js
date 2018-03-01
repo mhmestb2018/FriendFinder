@@ -31,6 +31,33 @@
 // Once you've found the current user's most compatible friend, display the result as a modal pop-up.
 // The modal should display both the name and picture of the closest match.
 
-var friendsArr = [];
+var friendsArr = [
+    {
+    name: "Billy Joel",
+    photo: "http://ultimateclassicrock.com/files/2014/10/2024496.jpg?w=980&q=75",
+    scores:[5, 3, 2 , 1, 1, 3, 2, 5, 2, 1]
+},
+{
+    name: "Bruno Mars",
+    photo: "https://pbs.twimg.com/profile_images/952969165370884096/bK1_Bkpq_400x400.jpg",
+    scores:[3, 2, 5, 3, 1, 3, 2, 3, 2, 4]
+},
+{
+    name: "Cardi B",
+    photo: "https://pbs.twimg.com/profile_images/894310469988757506/IK5M0muk_400x400.jpg",
+    scores:[2, 5, 3, 2, 1, 5, 2, 4, 1, 3]
+},
+{
+    name: "Miley Cyrus",
+    photo: "https://i.scdn.co/image/ae71f02aececa87c716a4e0abe39f703c9054d59",
+    scores:[3, 2, 5, 1, 3, 2, 4, 3, 3, 2]
+},
+
+{
+    name: "Garth Brooks",
+    photo: "http://media.graytvinc.com/images/810*455/Brooks+GarthMGN.jpg",
+    scores:[2, 4, 2, 5, 1, 5, 3, 2, 1, 3]
+}
+];
 
 module.exports = friendsArr;
